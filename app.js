@@ -1,0 +1,1 @@
+async function fetchData(){const r=await fetch('/api/accounts');const d=await r.json();console.log(d);}fetchData();
